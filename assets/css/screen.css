@@ -1230,6 +1230,11 @@ hr {
   width: 40%;
   max-width: 530px; }
 
+.hljs {
+  background: none !important;
+  padding: 0em !important;
+}
+
 .panel-main__inner {
   display: table-cell;
   vertical-align: middle;
