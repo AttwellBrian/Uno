@@ -179,6 +179,16 @@ pre {
 .tags {
   font-size: .8em;
   color: darken($gray, 2%);
+
+  a {
+    color: $gray-darker;
+
+    &:hover {
+      color: $hover-color;
+    }
+
+  }
+
 }
 
 .excerpt {
@@ -270,7 +280,7 @@ pre {
 .logo {
   border-radius: 50%;
   border: 3px solid #FFF;
-  @include box-shadow(0 0 1px 1px rgba(000,000,000,.3));
+  box-shadow:0 0 1px 1px rgba(000,000,000,.3);
 }
 
 // ------------------------------
@@ -279,6 +289,12 @@ pre {
 
 hr {
   border: none;
+}
+
+.section-title__divider {
+  width: 30%;
+  margin: 2.2em 0 2.1em 0;
+  border-top: 1px solid $gray-light;
 }
 
 // ------------------------------
