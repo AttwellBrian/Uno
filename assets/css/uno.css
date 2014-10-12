@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Lato:400,700|Oswald|Roboto+Slab);
+@import url(//fonts.googleapis.com/css?family=Lato:400,700|Oswald);
 @import url(../css/animate.css);
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -953,15 +953,16 @@ h4,
 h5,
 h5 {
   margin-top: .8em;
-  margin-bottom: .4em;
+  margin-bottom: .6em;
   letter-spacing: -.03em;
-  font-family: "Roboto Slab", serif;
+  font-family: "Oswald", serif;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
-  margin-top: 0;
-  font-size: 2.8em;
+  margin-top: .6em;
+  margin-bottom: 1em;
+  font-size: 4em;
   line-height: 1.2em; }
 
 h2 {
@@ -1019,7 +1020,7 @@ code {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .85em; }
 
 pre {
@@ -1028,8 +1029,8 @@ pre {
   background: #e8f2fb;
   border: 1px solid #c9e1f6;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: .9em;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 1em;
   font-weight: normal;
   overflow: auto;
   line-height: 1.3em; }
@@ -1186,13 +1187,11 @@ hr {
   vertical-align: middle; }
 
 .panel-title {
-  font-family: "Oswald", "Roboto Slab", serif;
   margin: .1em 0 .6em 0;
   font-size: 2.8em;
   color: #FFF; }
 
 .panel-subtitle {
-  font-family: "Roboto Slab", serif;
   font-size: 1.2em;
   letter-spacing: 3px;
   color: #cccccc;
@@ -1681,6 +1680,8 @@ input[type="tel"] {
     margin-bottom: .4em; }
 
   h1 {
+    margin-top: .6em;
+    margin-bottom: .6em;
     font-size: 2.4em; }
 
   h2 {

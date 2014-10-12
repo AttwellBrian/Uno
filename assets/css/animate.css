@@ -1526,10 +1526,11 @@
 	-o-animation-name: fadeOutRightBig;
 	animation-name: fadeOutRightBig;
 }
+
 @-webkit-keyframes slideInDown {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(-2000px);
+		-webkit-transform: translateY(-100%);
 	}
 
 	100% {
@@ -1540,7 +1541,7 @@
 @-moz-keyframes slideInDown {
 	0% {
 		opacity: 0;
-		-moz-transform: translateY(-2000px);
+		-moz-transform: translateY(-100%);
 	}
 
 	100% {
@@ -1551,7 +1552,7 @@
 @-o-keyframes slideInDown {
 	0% {
 		opacity: 0;
-		-o-transform: translateY(-2000px);
+		-o-transform: translateY(-100%);
 	}
 
 	100% {
@@ -1562,7 +1563,7 @@
 @keyframes slideInDown {
 	0% {
 		opacity: 0;
-		transform: translateY(-2000px);
+		transform: translateY(-100%);
 	}
 
 	100% {
@@ -1575,6 +1576,12 @@
 	-moz-animation-name: slideInDown;
 	-o-animation-name: slideInDown;
 	animation-name: slideInDown;
+
+        -webkit-animation-timing-function: cubic-bezier(0.400, 0, 0.200, 1.000); /* older webkit */
+        -webkit-animation-timing-function: cubic-bezier(0.400, -0.005, 0.200, 1.000); 
+        -moz-animation-timing-function: cubic-bezier(0.400, -0.005, 0.200, 1.000); 
+        -o-animation-timing-function: cubic-bezier(0.400, -0.005, 0.200, 1.000); 
+        animation-timing-function: cubic-bezier(0.400, -0.005, 0.200, 1.000); /* custom */
 }
 @-webkit-keyframes slideInLeft {
 	0% {
