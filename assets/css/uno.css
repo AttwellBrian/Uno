@@ -1104,14 +1104,14 @@ pre {
 
 .footer {
   display: block;
-  padding: 2em 0 0 0;
+  padding: 2em 0 2em 0;
   border-top: 2px solid #dddddd;
   font-size: .7em;
   color: #b3b3b3; }
 
 .footer__copyright {
-  display: block;
-  margin-bottom: .7em; }
+  margin-left: .2em;
+  margin-right: .2em; }
   .footer__copyright a {
     color: #a6a6a6;
     text-decoration: underline; }
