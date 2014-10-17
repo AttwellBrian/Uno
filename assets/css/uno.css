@@ -1095,9 +1095,9 @@ pre {
 
 .content-wrapper {
   z-index: 800;
-  width: 60%;
+  width: 65%;
   max-width: 960px;
-  margin-left: 40%; }
+  margin-left: 35%; }
 
 .content-wrapper__inner {
   margin: 0 10%;
@@ -1208,8 +1208,8 @@ hr {
   background-size: cover; }
 
 .panel-cover--collapsed {
-  width: 40%;
-  max-width: 530px; }
+  width: 34%;
+  max-width: 440px; }
 
 .panel-cover--overlay {
   display: block;
@@ -1227,7 +1227,7 @@ hr {
   margin-bottom: .2em; }
 
 .panel-cover__description {
-  margin: 0 30px; }
+  margin: 0 5px; }
 
 .panel-cover__divider {
   width: 50%;
@@ -1243,8 +1243,8 @@ hr {
   height: 100%; }
 
 .no-js .panel-main {
-  width: 40%;
-  max-width: 530px; }
+  width: 35%;
+  max-width: 440px; }
 
 .hljs {
   background: none !important;
@@ -1557,7 +1557,7 @@ input[type="tel"] {
 
 @media all and (min-width: 1300px) {
   .content-wrapper {
-    margin-left: 530px; } }
+    margin-left: 440px; } }
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
     width: 70px; }
@@ -1664,7 +1664,7 @@ input[type="tel"] {
   .navigation__item {
     width: 100%;
     margin: 0 0 .4em 0; } }
-@media all and (max-width: 340px) {
+@media all and (max-width: 400px) {
   .panel-main__inner {
     padding: 0 5%; }
 
