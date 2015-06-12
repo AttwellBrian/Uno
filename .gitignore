@@ -2,10 +2,14 @@
 *.swp
 *.un~
 
+.DS_Store
+
 # ignore bourbon install so that it is the latest build
 # for developers that need it
 assets/scss/bourbon/*
+bourbon/
 
 # ignore the sass-cache/
 .sass-cache/*
 **/.sass-cache/*
+assets/css/uno.css.map
