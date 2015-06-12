@@ -1098,12 +1098,13 @@ pre {
 
 .content-wrapper {
   z-index: 800;
-  width: 60%;
-  max-width: 800px;
-  margin-left: 40%; }
+  width: 70%;
+  max-width: 930px;
+  margin-left: 30%; }
 
 .content-wrapper__inner {
-  margin: 0 10%;
+  /* Padding between left panel and content */
+  margin: 0 10%; 
   padding: 50px 0; }
 
 .footer {
@@ -1213,9 +1214,10 @@ hr {
   //background: url(../images/background-cover.jpg) top left no-repeat #666666;
   background-size: cover; }
 
+/* Determines width of side panel. Other things need to be changed too. */
 .panel-cover--collapsed {
-  width: 35%;
-  max-width: 530px; }
+  width: 30%;
+  max-width: 390px; }
 
 .panel-cover--overlay {
   display: block;
@@ -1248,6 +1250,7 @@ hr {
   width: 100%;
   height: 100%; }
 
+/* Determines width of side panel */
 .no-js .panel-main {
   width: 40%;
   max-width: 530px; }
@@ -1557,9 +1560,11 @@ input[type="tel"] {
   input[type="tel"]:-ms-input-placeholder {
     color: #CCCCCC; }
 
+/* When greater than 1300px, max the left side */
 @media all and (min-width: 1300px) {
   .content-wrapper {
-    margin-left: 530px; } }
+    margin-left: 390px; } }
+
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
     width: 70px; }
@@ -1577,6 +1582,8 @@ input[type="tel"] {
   .navigation--social {
     margin-top: 5px;
     margin-left: 0; } }
+
+/* Display the mobile format when less than 960px wide */
 @media all and (max-width: 960px) {
   .btn-mobile-menu {
     display: block; }
