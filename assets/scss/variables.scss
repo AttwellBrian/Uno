@@ -19,6 +19,6 @@ $link-color:        $primary-color;
 $hover-color:       darken($link-color, 15%);
 
 $sans-font:         'Raleway', sans-serif;
-$serif-font:        'Roboto Slab', serif;
+$serif-font:        'Roboto', sans-serif; /* Use sans-serif anyway */
 
 $border-radius:     3px;
