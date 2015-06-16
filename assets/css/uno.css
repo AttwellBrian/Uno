@@ -1252,8 +1252,9 @@ hr {
 
 /* Determines width of side panel */
 .no-js .panel-main {
-  width: 40%;
-  max-width: 530px; }
+  width: 100%;
+  height: 100%;
+}
 
 .panel-main__inner {
   display: table-cell;
